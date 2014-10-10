@@ -1,71 +1,42 @@
-# Compiled Object files
-*.slo
-*.lo
+Makefile
+Makefile.in
+.deps
+.libs
 *.o
-*.obj
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
+*.lo
 *.la
-*.a
-*.lib
+*.pc
+aclocal.m4
+acinclude.m4
+aminclude.am
+m4/*.m4
+autom4te.cache
+config.h*
+config.sub
+config.log
+config.status
+config.guess
+configure
+depcomp
+missing
+ltmain.sh
+install-sh
+stamp-h1
+libtool
+Doxyfile
 
-# Executables
-*.exe
-*.out
-*.app
+.tarball-version
+.version
 
-# =========================
-# Operating System Files
-# =========================
+.*.swp
 
-# OSX
-# =========================
+doc/
 
-.DS_Store
-.AppleDouble
-.LSOverride
+src/rtl_sdr
+src/rtl_tcp
 
-# Icon must end with two \r
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+CMakeCache.txt
+*/CMakeFiles
+CMakeFiles
+*.cmake
+build
